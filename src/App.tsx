@@ -1,7 +1,12 @@
+import TrafficLigthWithEffect from "./02-useEffect/TrafficLigthWithEffect.tsx";
+
 function App() {
     return (
         <>
-            <h2 className="text-2xl">Hola Mundo</h2>
+            <div className="bg-gradient">
+                {/*<TrafficLigth/>*/}
+                <TrafficLigthWithEffect/>
+            </div>
         </>
     )
 }

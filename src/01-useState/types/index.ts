@@ -1,0 +1,1 @@
+export type TrafficLigthColors = "red" | "yellow" | "green";
